@@ -13,5 +13,7 @@ function createState(setState) {
 }
 
 export default function Custom() {
+  const state = createState("5");
+  console.log(state);
   return <div>Custom</div>;
 }
